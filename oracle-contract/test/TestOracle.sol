@@ -19,7 +19,7 @@ contract TestOracle {
 
   }
 
-  function testInitialBalanceWithNewMetaCoin() public {
+  function testInitialWithBNB() public {
     Oracle oracle = new Oracle();
 
     uint test_price = 10000;
